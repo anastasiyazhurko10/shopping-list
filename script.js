@@ -17,4 +17,5 @@ function addListItem() {
     });
 
     itemsContainer.appendChild(li);
+    input.value = '';
 }
