@@ -15,4 +15,6 @@ function addListItem() {
     li.addEventListener('click', function() {
         li.classList.toggle('done')
     });
+
+    itemsContainer.appendChild(li);
 }
