@@ -13,6 +13,6 @@ function addListItem() {
     li.textContent = text;
 
     li.addEventListener('click', function() {
-        
-    })
+        li.classList.toggle('done')
+    });
 }
