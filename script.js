@@ -8,4 +8,8 @@ function addListItem() {
         alert("Пожалуйста, введите текст!");
         return
     }
+
+    const li = document.createElement('li');
+    li.textContent = text;
+    
 }
